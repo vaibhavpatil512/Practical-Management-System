@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-  "start": "node api/index.js",
-  "dev": "nodemon"
+  "dev": "nodemon --watch api --exec node api/index.js"
   },
   "author": "Vaibhav",
   "license": "ISC",
