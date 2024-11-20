@@ -1,0 +1,19 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "practical system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
